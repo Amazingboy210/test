@@ -11,7 +11,7 @@ if($conn){
     die(print_r(sqlsrv_errors(), true));
 }
 ?>
-
+//你好
 <script>
     var log_message = "<?php echo $debug_log; ?>";
     console.log(log_message);
